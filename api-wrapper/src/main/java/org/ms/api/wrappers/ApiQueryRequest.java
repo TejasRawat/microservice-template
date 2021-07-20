@@ -3,16 +3,16 @@ package org.ms.api.wrappers;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import org.ms.api.exception.ApiError;
 
 import java.util.List;
 
 @SuperBuilder
 @Data
 @NoArgsConstructor
-public class ApiResponse<T> {
+public class ApiQueryRequest<FilterType> {
 
-    private T payload;
-    private List<ApiError> errors;
+    private ApiPaginationRequest paginationInfo;
+    private FilterType filters;
+    private List<SortCriteria> sortCriteriaList;
 
 }

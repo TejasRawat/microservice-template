@@ -2,4 +2,5 @@ rootProject.name = 'parent'
 include 'api-wrapper'
 include 'service'
 include 'dto'
+include 'dao'
 
