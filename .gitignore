@@ -158,3 +158,8 @@ gradle-app.setting
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,gradle,java-web,java
 {"mode":"full","isActive":false}
+
+.idea/
+gradle/
+gradlew
+gradlew.bat
