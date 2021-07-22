@@ -1,6 +1,10 @@
+/*
 rootProject.name = 'parent'
+*/
+include 'configuration'
 include 'api-wrapper'
-include 'service'
-include 'dto'
-include 'dao'
+include 'customer-api'
+include 'customer-http'
+include 'customer-dao'
+include 'customer-service'
 

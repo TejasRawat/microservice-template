@@ -12,7 +12,7 @@ import java.util.Map;
 @NoArgsConstructor
 public class ApiExchange {
 
-    private Map<String, String> headers = new HashMap<>();
     private ApiContext apiContext = new ApiContext();
+    private Map<String, String> headers = new HashMap<>();
 
 }

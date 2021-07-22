@@ -7,6 +7,7 @@ compileJava {
     targetCompatibility = 1.8
 }
 
+
 group 'org.ms'
 version '0.0.1-SNAPSHOT'
 
@@ -17,7 +18,7 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-    compileOnly 'org.projectlombok:lombok:1.18.20'
+    implementation project(':customer-api')
 }
 
 test {
