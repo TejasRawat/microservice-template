@@ -13,6 +13,6 @@ import lombok.experimental.SuperBuilder;
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class CustomerSearchFilter {
 
-    private String loginId;
+    private String emailId;
 
 }

@@ -15,6 +15,6 @@ public interface CustomerService {
 
     Boolean updateCustomer(Customer customer) throws ApiException;
 
-    Boolean deleteCustomer(Integer customerId) throws ApiException;
+    Boolean deleteCustomer(String loginId) throws ApiException;
 
 }
